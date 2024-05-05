@@ -1,0 +1,571 @@
+body{
+    background-color: #f4ffff;
+    height: 100%;
+}
+.nav img{
+    width: 150px;
+    margin: 25px;
+    margin-left: 60px;
+}
+.nav a{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav{
+    display: flex;
+}
+.bt{
+    margin-top: 24px;
+    margin-left: 40px;
+}
+.bt input{
+    padding: 10px 28px;
+    background-color: #1a385d;
+    border-radius: 10px;
+    border: none;
+    color: #f4ffff;
+}
+section{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/036/747/677/small_2x/ai-generated-the-office-is-modern-and-green-with-colorful-efx-free-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.one{
+    margin: 70px;
+    padding-top: 70px;
+}
+.one h1{
+    color: #f4ffff;
+    font-size: 55px;
+    padding: 0;
+    margin: 0;
+}
+.one p{
+    color: #f4ffff;
+    font-size: 21px;
+    padding: 0;
+    margin: 0;
+}
+.one input{
+    margin-top: 30px;
+    padding: 19px 38px;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 19px;
+    background: transparent;
+    color: #f4ffff;
+}
+.two{
+    display: flex;
+}
+.three{
+    margin: 30px;
+}
+.three p{
+    font-size: 18px;
+}
+.four img{
+    width: 500px;
+    height: 470px;
+    margin: 30px;
+    margin-right: 70px;
+    animation: ram 3s infinite 3s;
+}
+@keyframes ram {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+.main{
+    display: flex;
+}
+.main2{
+    margin-left: 230px;
+    margin-top: 50px;
+}
+.main1{
+    background-color: orange;
+    width: 400px;
+    height: 400px;
+    padding-left: 50px;
+    margin: 70px;
+}
+.main1 input{
+    padding: 7px;
+    border-radius: 10px;
+}
+.main5{
+    background-color: #f6f7f6;
+    display: flex;
+    height: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+.main4{
+    margin-left: 200px;
+}
+.main4 h1{
+    font-size: 10vh;
+    color: #1a385d;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+.main4 p{
+    padding: 0;
+    margin: 0;
+    margin-top: 7px;
+}
+.nav2{
+    background-color: #315e96;
+    width: 450px;
+    height: 390px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 30px;
+}
+.nav2 h1{
+    color: aliceblue;
+    padding: 8px;
+    font-size: 30px;
+
+}
+.nav2 p{
+    color: aliceblue;
+    font-size: 14px;
+}
+.nav3{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.nav1{
+    display: flex;
+    margin: 50px;
+}
+.foot{
+    background-color: #0d1b2b;
+    display: flex;
+    height: 350px;
+}
+.foot h1{
+    color: #f4ffff;
+    margin-left: 17px;
+}
+.foot1 a{
+    color: #bec6c6;
+    text-decoration: none;
+    font-size: 14px;
+    list-style-type: none;
+    margin: 8px;
+    margin-left: 150px;
+}
+.foot2{
+    color: #f4ffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.h2 p{
+    background-color: #0d1b2b;
+    color: #f4ffff;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.nav3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.m2 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.m2{
+    display: flex;
+    border: 1px solid #e3dcdc;
+    box-shadow: 1px 1px 8px black;
+    width: 250px;
+    height: 70px;
+}
+.m2 h3{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.m3 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.m3{
+    display: flex;
+    border: 1px solid #e3dcdc;
+    box-shadow: 1px 1px 8px black;
+    width: 250px;
+    height: 70px;
+}
+.m3 h3{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.m4 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.m4{
+    display: flex;
+    border: 1px solid #e3dcdc;
+    box-shadow: 1px 1px 8px black;
+    width: 250px;
+    height: 70px;
+}
+.m4 h3{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.m5 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.m5{
+    display: flex;
+    border: 1px solid #e3dcdc;
+    box-shadow: 1px 1px 8px black;
+    width: 250px;
+    height: 70px;
+}
+.m5 h3{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.m6 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.m6{
+    display: flex;
+    border: 1px solid #e3dcdc;
+    box-shadow: 1px 1px 8px black;
+    width: 250px;
+    height: 70px;
+}
+.m6 h3{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.m7 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.m7{
+    display: flex;
+    border: 1px solid #e3dcdc;
+    box-shadow: 1px 1px 8px black;
+    width: 250px;
+    height: 70px;
+}
+.m7 h3{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.m8 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.m8{
+    display: flex;
+    border: 1px solid #e3dcdc;
+    box-shadow: 1px 1px 8px black;
+    width: 250px;
+    height: 70px;
+}
+.m8 h3{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.m9 img{
+    width: 39px;
+    height: 38px;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.m9{
+    display: flex;
+    border: 1px solid #e3dcdc;
+    box-shadow: 1px 1px 8px black;
+    width: 250px;
+    height: 70px;
+}
+.m9 h3{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.m10 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.m10{
+    display: flex;
+    border: 1px solid #e3dcdc;
+    box-shadow: 1px 1px 8px black;
+    width: 250px;
+    height: 70px;
+}
+.m10 h3{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.m11 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.m11{
+    display: flex;
+    border: 1px solid #e3dcdc;
+    box-shadow: 1px 1px 8px black;
+    width: 250px;
+    height: 70px;
+}
+.m11 h3{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.m12 img{
+    width: 45px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.m12{
+    display: flex;
+    border: 1px solid #e3dcdc;
+    box-shadow: 1px 1px 8px black;
+    width: 250px;
+    height: 70px;
+}
+.m12 h3{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.m13 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.m13{
+    display: flex;
+    border: 1px solid #e3dcdc;
+    box-shadow: 1px 1px 8px black;
+    width: 250px;
+    height: 70px;
+}
+.m13 h3{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.m1{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 25px;
+}
+.m1 h3{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.card1{
+    border: 1px solid #d4cccc;
+    height: 350px;
+    width: 280px;
+    box-shadow: 3px 3px 8px black;
+  }
+  .card1 h2{
+    margin-left: 30px;
+    margin-top: 27px;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  .card1 p{
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .card1 input{
+    margin: 20px;
+    margin-left: 60px;
+    padding: 4px 20px;
+    background-color: #0084ff;
+    color: aliceblue;
+  }
+  .card2{
+    border: 1px solid #d4cccc;
+    height: 350px;
+    width: 280px;
+    box-shadow: 3px 3px 8px black;
+  }
+  .card2 h2{
+    margin-left: 50px;
+    margin-top: 27px;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  .card2 p{
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .card2 input{
+    margin: 20px;
+    margin-left: 60px;
+    padding: 4px 20px;
+    background-color: #0084ff;
+    color: aliceblue;
+  }
+  .card3{
+    border: 1px solid #d4cccc;
+    height: 350px;
+    width: 280px;
+    box-shadow: 3px 3px 8px black;
+  }
+  .card3 h2{
+    margin-left: 50px;
+    margin-top: 27px;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  .card3 p{
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .card3 input{
+    margin: 20px;
+    margin-left: 60px;
+    padding: 4px 20px;
+    background-color: #0084ff;
+    color: aliceblue;
+  }
+  .card{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    animation: ram1 5s infinite 4s;
+  }
+  @keyframes ram1 {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 10%;
+    }
+  }
+  .s2 img{
+    width: 300px;
+  }
+  .s2{
+    background-color: #fefffe;
+    width: 300px;
+    border: 1px solid #d9d4d4;
+    box-shadow: 2px 2px 5px black;
+  }
+  .s2 input{
+    margin: 10px;
+    padding: 7px 30px;
+    background-color: #1e588f;
+    color: #f4ffff;
+    font-weight: bold;
+  }
+  .s2 h2{
+    margin-left: 15px;
+  }
+  .s2 p{
+    margin: 13px;
+    text-shadow: 1px 1px 3px pink;
+  }
+  .s1{
+    margin: 50px;
+    display: flex;
+    animation: ram2 5s infinite 4s;
+  }
+  @keyframes ram2 {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 5%;
+    }
+
+  }
+  .s2{
+    margin-left: 50px;
+  }
+  .icon1 img{
+    width: 80px;
+    height: 60px;
+    margin-left: 50px;
+  }
+  .h3 h1{
+    text-align: center;
+  }
+  .icon1{
+    display: flex;
+  }
+  .icon{
+    margin: 100px;
+    animation: ram4 7s infinite 8s;
+  }
+  @keyframes ram4 {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 10%;
+    }
+  }
