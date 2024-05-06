@@ -30,7 +30,8 @@ body{
     color: #f4ffff;
 }
 section{
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/036/747/677/small_2x/ai-generated-the-office-is-modern-and-green-with-colorful-efx-free-photo.jpg);
+    /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/036/747/677/small_2x/ai-generated-the-office-is-modern-and-green-with-colorful-efx-free-photo.jpg); */
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/357/124/large_2x/blurred-office-workspace-in-the-evening-interior-ai-generated-free-photo.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,9 +52,10 @@ section{
     font-size: 21px;
     padding: 0;
     margin: 0;
+    margin-top: 25px;
 }
 .one input{
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 19px 38px;
     border-radius: 20px;
     border: 2px solid white;
@@ -86,7 +88,7 @@ section{
         margin-left: 0%;
     }
 }
-.main{
+#main{
     display: flex;
 }
 .main2{
@@ -95,7 +97,7 @@ section{
 }
 .main1{
     background-color: orange;
-    width: 400px;
+    width: 300px;
     height: 400px;
     padding-left: 50px;
     margin: 70px;
@@ -530,7 +532,8 @@ section{
     text-shadow: 1px 1px 3px pink;
   }
   .s1{
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
     display: flex;
     animation: ram2 5s infinite 4s;
   }
@@ -550,6 +553,7 @@ section{
     width: 80px;
     height: 60px;
     margin-left: 50px;
+    margin-top: 0px;
   }
   .h3 h1{
     text-align: center;
@@ -559,13 +563,89 @@ section{
   }
   .icon{
     margin: 100px;
-    animation: ram4 7s infinite 8s;
+    /* animation: ram4 7s infinite 8s; */
   }
-  @keyframes ram4 {
+  /* @keyframes ram4 {
     from{
         margin-left: 100%;
     }
     to{
         margin-left: 10%;
     }
+  } */
+  .a1{
+    display: flex;
+    margin-top: 100;
+    margin-left: 80px;
+  }
+  .a2 img{
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+  .h3 h1{
+    margin-top: 100px;
+  }
+  .b1{
+    margin: 60px;
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .b2:hover{
+    transform: scale(1.1);
+  }
+  .b2{
+    background-color: white;
+    width: 170px;
+    height: 160px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px black;
+  }
+  .b1 img{
+    width: 60px;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  .b1 p{
+    text-align: center;
+    font-size: 17px;
+  }
+  .t3{
+    display: flex;
+    text-align: center;
+  }
+  .t3 h1{
+    margin-left: 130px;
+    margin-top: 60px;
+    font-size: 50px;
+    color: #f4ffff;
+  }
+  .t2{
+    text-align: center;
+    color: #f6f7f6;
+
+  }
+  .t2 h2{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    font-family: sans-serif;
+  }
+  .t2 p{
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+
+  }
+  .t0{
+    background-color:#321414;
+    height: 450px;
+    padding-top: 10px;
+  }
+  .t1{
+    background-color:#246acd;
+    margin: 70px;
+    height: 350px;
+    border-radius: 50px;
   }
